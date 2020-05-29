@@ -1,12 +1,19 @@
+
+body {
+    background: #f8f7ff;
+}
+
 h1 {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    /* Shadow - X, Y, Blur, Color */
+    text-shadow: 1px 1px 2px grey;
 }
 
 .header {
     width: 60%;
-    height: 60px;
+    box-shadow: 1px 1px 10px #fce803;
     margin: auto;
     background-color: yellow;
 }
@@ -15,6 +22,8 @@ h1 {
     padding: 5px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    /* Shadow - X, Y, Color */
+    text-shadow: 2px 2px black;
 }
 
 .container {
